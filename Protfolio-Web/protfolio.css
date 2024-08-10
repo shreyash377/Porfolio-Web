@@ -1,0 +1,337 @@
+  /*----------------------First Part Css----------------------------*/
+  body {
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(30, 6, 43);
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+nav {
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background-color: rgb(47, 13, 62);
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+ul li {
+    font-size: 20px;
+    list-style: none;
+    cursor: pointer;
+}
+
+
+.Left {
+    font-size: 30px;
+}
+
+li:hover {
+    color: rgb(137, 183, 52);
+    transition: all 0.4s ease 0s;
+}
+
+.Box {
+    display: flex;
+    height: 150%;
+    justify-content: space-around;
+    align-items: center;
+    color: aliceblue;
+    margin: 20px 0;
+}
+
+.Box>div {
+    max-width: 1000%;
+}
+
+.Left-section {
+    min-width: 20px;
+    font-size: 30px;
+}
+
+.Right-section img {
+    width: 80%;
+    margin: 50px 0;
+}
+
+span {
+    color: rgb(255, 0, 0);
+}
+
+/*----------------------Second Part Css----------------------------*/
+.Second-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    margin: 30px 0;
+}
+
+
+.Second-section div {
+    width: 30%;
+}
+
+.Left-side img {
+    margin: 0px 30px;
+    width: 50%;
+    border-radius: 5px;
+
+}
+
+.Left-side div {
+    background-color: hotpink;
+}
+
+.Right-side img {
+    width: 120%
+}
+
+h1 {
+    margin: 20px 30px;
+    color: rgb(243, 10, 10);
+}
+
+.btn {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.button   {
+    margin-left: 55%;
+    background-color: rgb(50, 43, 178);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+    color: white;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/*----------------------Third Part Css -----------------------------*/
+.Third-section {
+    color: white;
+    max-width: 100%;
+}
+
+.paragraph {
+    margin: auto;
+    width: 80%;
+}
+
+.paragraph p {
+    font-size: 28px;
+}
+
+/*---------------------------Resume-section-------------------------*/
+
+.Resume-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px; /* Using the shorthand 'gap' instead of 'grid-gap' */
+    flex-wrap: wrap; /* Allows content to wrap on smaller screens */
+    padding: 20px; /* Optional: Add padding for better spacing */
+}
+
+.Edu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 44%;
+    background-color: rgba(255, 255, 255, 0.064);
+    backdrop-filter: blur(10px);
+    border: none;
+    border-radius: 10px;
+
+
+}
+
+.Edu p {
+    margin: 0px 30px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+
+}
+
+.logo img {
+    width: 78px;
+    height: 77px
+}
+
+.Skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 94%;
+    width: 44%;
+    background-color: rgba(255, 255, 255, 0.064);
+    backdrop-filter: blur(10px);
+    border: none;
+    border-radius: 10px;
+
+}
+
+.second-logo img {
+    width: 78px;
+    height: 77px
+}
+
+h6 {
+    color: white;
+    font-size: 30px;
+    margin: 20px 0px;
+}
+
+.Skills p {
+    font-size: 17px;
+    margin: 0px 30px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+@media(max-width:600px){
+    .paragraph p{
+        font-size:0.5rem;
+    }
+    .Left-section{
+        font-size:15px;
+    }
+   
+}
+
+/*-------------------------------------Fourth-Part CSS------------------------------*/
+
+.Fourth-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-column-gap: 54px;
+    grid-row-gap: 56px;
+
+
+}
+
+#Yt-clone {
+    margin: 20px 70px;
+    height: 189px;
+    width: 263px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #c1c161 0%, #c1c161 0%, #d4d4b1 100%);
+    backdrop-filter: blur(10px);
+}
+
+#College-web-prototype {
+    height: 189px;
+    width: 263px;
+    margin: 20px 70px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    background-image: linear-gradient(to top, #0fd850 0%, #f9f047 100%);
+    backdrop-filter: blur(10px);
+}
+
+#Portfolio-web {
+    height: 189px;
+    width: 263px;
+    margin: 20px 70px;
+    width: 254px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    background-image: linear-gradient(109.6deg, rgba(61, 245, 167, 1)11.2%, rgba(9, 111, 224, 1)91.1%);
+    backdrop-filter: blur(10px);
+
+}
+
+#Yt-clone img {
+    margin: 0px 90px;
+    border-radius: 50%;
+    width: 78px;
+    height: 77px
+}
+
+#College-web-prototype img {
+    margin: 10px 90px;
+    border-radius: 50%;
+    width: 78px;
+    height: 77px
+}
+
+#Portfolio-web img {
+    margin: 10px 90px;
+    border-radius: 50%;
+    width: 78px;
+    height: 77px
+}
+
+#clone {
+    margin: 10px 35px;
+    color: white;
+    font-size: 30px;
+}
+
+#prototype {
+    margin: 0px 40px;
+    color: white;
+    font-size: 30px;
+}
+
+#Portfolio {
+    margin: 0px 42px;
+    color: white;
+    font-size: 30px;
+}
+
+.lang {
+    margin: 15px 0px;
+    font-size: 15px;
+}
+
+.p-lang {
+    color: white;
+    margin: 10px 35px;
+    font-size: 15px;
+}
+
+.p-lang2 {
+    color: white;
+    margin: 10px 35px;
+    font-size: 15px;
+}
+
+/*---------------Animation-----------------*/
+#Yt-clone:hover {
+    scale: 1.1;
+}
+
+#College-web-prototype:hover {
+    scale: 1.1;
+}
+
+#Portfolio-web:hover {
+    scale: 1.1;
+}
+/*--------------------------------------------end-part---------------------------------*/
+.end_part{
+    color: white;
+    margin: 30px 50px;
+
+}
+footer{
+    height: 160px;
+    
+}
+
